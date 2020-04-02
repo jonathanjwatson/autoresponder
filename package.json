@@ -1,0 +1,26 @@
+{
+  "name": "autoresponder",
+  "version": "1.0.0",
+  "description": "An application designed to generate automatic email responses.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanjwatson/autoresponder.git"
+  },
+  "author": "Jonathan J Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanjwatson/autoresponder/issues"
+  },
+  "homepage": "https://github.com/jonathanjwatson/autoresponder#readme",
+  "devDependencies": {
+    "jest": "^25.2.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
